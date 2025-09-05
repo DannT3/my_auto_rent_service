@@ -1,7 +1,7 @@
 from sqlalchemy.orm import Mapped, mapped_column
 from sqlalchemy.dialects.postgresql import DATE
 from .base_model import BaseModel
-from common.enum.status import Status
+from common.enum.rental_status import Status
 
 
 class RentModel(BaseModel):
